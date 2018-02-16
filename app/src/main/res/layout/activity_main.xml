@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/aa1"
+      android:orientation="vertical"
+      tools:context=".MainActivity">
+
+
+      <LinearLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <ImageView
+              android:id="@+id/mama"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="15dp"
+              android:adjustViewBounds="true"
+             android:src="@drawable/mama1"
+
+              />
+
+       <TextView
+           android:id="@+id/ud"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:text="@string/neuro"
+           android:textAppearance="?android:textAppearanceMedium"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/description"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:text="@string/traditional" />
+
+       <TextView
+           android:id="@+id/name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:text="@string/name"
+           android:textAppearance="?android:textAppearanceMedium"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/job"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:layout_marginStart="20dp"
+           android:text="@string/medical" />
+
+       <TextView
+           android:id="@+id/function"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:text="@string/function"
+           android:textAppearance="?android:textAppearanceMedium"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/secondfunction"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="30dp"
+           android:text="@string/secondfunction"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/thirdfunction"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:layout_marginStart="30dp"
+           android:text="@string/thirdfunction"
+           android:textStyle="bold" />
+
+       <LinearLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal">
+
+
+           <TextView
+               android:id="@+id/street"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="5dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="@string/street"
+               android:textAppearance="?android:textAppearanceMedium"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/Phone"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="5dp"
+               android:layout_marginStart="10dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="@string/phone"
+               android:textAppearance="?android:textAppearanceMedium"
+               android:textStyle="bold" />
+
+
+       </LinearLayout>
+
+       <LinearLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:orientation="horizontal">
+
+
+           <TextView
+               android:id="@+id/plz"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="5dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="@string/city"
+               android:textAppearance="?android:textAppearanceMedium"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/mobil"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="@string/mobil"
+               android:textAppearance="?android:textAppearanceMedium"
+               android:textStyle="bold" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:baselineAligned="false"
+           android:orientation="horizontal">
+
+
+           <LinearLayout
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:orientation="vertical">
+
+
+               <TextView
+                   android:id="@+id/date"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="10dp"
+                   android:layout_marginStart="10dp"
+                   android:gravity="center"
+                   android:text="@string/date"
+                   android:textAppearance="?android:textAppearanceMedium"
+                   android:textStyle="bold"
+
+                   />
+
+               <Button
+                   android:id="@+id/book"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="10dp"
+                   android:layout_marginStart="10dp"
+                   android:onClick="Book"
+                   android:text="@string/book"
+                   android:textAppearance="?android:textAppearanceMedium"
+                   android:textStyle="bold" />
+           </LinearLayout>
+
+
+           <LinearLayout
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:orientation="vertical">
+
+
+               <TextView
+                   android:id="@+id/opening"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/opening"
+                   android:textAppearance="?android:textAppearanceMedium"
+                   android:textStyle="bold"
+
+                   />
+
+               <TextView
+                   android:id="@+id/time"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/timeAM"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/time2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/timePM"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+</ScrollView>

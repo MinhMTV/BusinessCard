@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Neuropathy Lu-Vuong</string>
+    <string name="neuro">Neuropathy practice</string>
+    <string name="traditional">Traditional Chinese Medicine</string>
+    <string name="name">Tuyet Anh Lu-Vuong</string>
+    <string name="medical">Non-medical practitioners</string>
+    <string name="function">Pain therapy</string>
+    <string name="secondfunction">- Acupuncture, acupressure, cupping</string>
+    <string name="thirdfunction">- Reflex-zone-therapy and more..</string>
+    <string name="street">Neumühler Street 60a</string>
+    <string name="phone">Phone: 0208 - 62 19 63 23</string>
+    <string name="city">46149 Oberhausen</string>
+    <string name="mobil">Mobile: 0160 - 94 96 10 57</string>
+    <string name="date">Dates by arrangement</string>
+    <string name="book">Book now</string>
+    <string name="opening">Opening times</string>
+    <string name="timeAM">Mo - Fri: 9AM - 12 AM</string>
+    <string name="timePM">3 PM - 6 PM</string>
+    <string name="add_name">Name: </string>
+    <string name="add_date">Date: DD/MM/YY</string>
+    <string name="add_time">Time: </string>
+    <string name="add_phone">Phone: </string>
+    <string name="add_info">Additional Information: </string>
+    <string name="booking">Bookingnumber <xliff:g id="book" example="1">%s</xliff:g></string>
+
+</resources>

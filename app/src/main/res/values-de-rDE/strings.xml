@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Naturheilpraxis Lu-Vuong</string>
+    <string name="Neuro">Naturheilpraxis</string>
+    <string name="traditional">Traditionelle Chinesische Medizin</string>
+    <string name="name">Tuyet Anh Lu-Vuong</string>
+    <string name="medical">Heilpraktikerin</string>
+    <string name="function">Schmerztherapien</string>
+    <string name="secondfunction">- Akupunktur, Tuina-Heilmassagen, Schröpfen</string>
+    <string name="thirdfunction">- Dorn-/Fußreflexzonentherapie und mehr...</string>
+    <string name="street">Neumühler Straße 60a</string>
+    <string name="phone">Telefon: 0208 - 62 19 63 23</string>
+    <string name="city">46149 Oberhausen</string>
+    <string name="mobil">Handy: 0160 - 94 96 10 57</string>
+    <string name="date">Termine nach Vereinbarung</string>
+    <string name="book">Buchen</string>
+    <string name="opening">Öffnungszeiten</string>
+    <string name="timeAM">Mo - Fr: 9 Uhr- 12 Uhr</string>
+    <string name="timePM">15 Uhr - 18 Uhr</string>
+    <string name="add_name">"Name: "</string>
+    <string name="add_date">Datum: TT/MM/JJ</string>
+    <string name="add_time">"Zeit: "</string>
+    <string name="add_phone">"Telefon: "</string>
+    <string name="add_info">Zusatzinformationen:</string>
+    <string name="Booking">"Buchungsnummer "</string>
+    <string name="booking">Buchungsnummer <xliff:g example="1" id="book">%s</xliff:g></string>
+    <string name="neuro">Naturheilpraxis</string>
+</resources>
